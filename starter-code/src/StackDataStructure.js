@@ -23,11 +23,8 @@ StackDataStructure.prototype.push = function(num) {
 }
 
 StackDataStructure.prototype.pop = function(num) {
-    if (!this.isEmpty()) {
-        ultimoElemento = this.stackControl[this.stackControl.length - 1]
-        this.stackControl.pop();
-        return ultimoElemento;
-    } else {
-        return "StackUnderflow";
+    if (this.isEmpty() === true) {
+        return 'Stack Underflow';
     }
+    return this.stackControl.pop();
 }
