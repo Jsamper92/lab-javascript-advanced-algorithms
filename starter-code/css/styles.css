@@ -1,0 +1,17 @@
+.container {
+    width: 400px;
+}
+
+tr td button {
+    width: 400px;
+    text-align: center;
+}
+
+.stackItem {
+    height: 50px;
+}
+
+tr .input {
+    align-content: center;
+    padding: 5px;
+}
